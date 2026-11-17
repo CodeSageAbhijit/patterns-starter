@@ -11,4 +11,3 @@ Requires Java 8. From the project root, run:
 ```
 
 See [PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATION.md) for design details, authentication, and API verification instructions. A PDF copy is included as [PROJECT_DOCUMENTATION.pdf](PROJECT_DOCUMENTATION.pdf);
- the ZIP submission is `Submission.zip`.
