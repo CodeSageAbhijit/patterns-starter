@@ -105,7 +105,7 @@ endobj
 << /Type /Page /Parent 10 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 6 0 R >>
 endobj
 8 0 obj
-<< /Length 3460 >>
+<< /Length 2605 >>
 stream
 BT /F2 13 Tf 1 0 0 1 54 738.0 Tm (API Verification With Postman) Tj ET
 BT /F1 9.5 Tf 1 0 0 1 54 714.0 Tm (Start the application, import Design+Patterns+Project.postman_collection \(1\).json, and) Tj ET
@@ -134,15 +134,6 @@ BT /F1 9.5 Tf 1 0 0 1 54 378.0 Tm (  - [ ] Infected ratio works for both Disease
 BT /F2 13 Tf 1 0 0 1 54 358.0 Tm (Contributors) Tj ET
 BT /F1 9.5 Tf 1 0 0 1 54 334.0 Tm (Name  |  Contribution) Tj ET
 BT /F1 9.5 Tf 1 0 0 1 54 320.0 Tm (Abhijeet Kad  |  Project implementation, testing, and documentation) Tj ET
-BT /F2 13 Tf 1 0 0 1 54 300.0 Tm (Code Quality Rules) Tj ET
-BT /F1 9.5 Tf 1 0 0 1 54 276.0 Tm (  - Keep one responsibility per class.) Tj ET
-BT /F1 9.5 Tf 1 0 0 1 54 262.0 Tm (  - Use constructor injection for Spring dependencies.) Tj ET
-BT /F1 9.5 Tf 1 0 0 1 54 248.0 Tm (  - Remove instructional placeholder comments after completing a task.) Tj ET
-BT /F1 9.5 Tf 1 0 0 1 54 234.0 Tm (  - Keep comments focused on design intent or non-obvious behavior.) Tj ET
-BT /F1 9.5 Tf 1 0 0 1 54 220.0 Tm (  - Remove unused imports and dead variables.) Tj ET
-BT /F1 9.5 Tf 1 0 0 1 54 206.0 Tm (  - Preserve the method names required by the assignment, even though standard Java) Tj ET
-BT /F1 9.5 Tf 1 0 0 1 54 192.0 Tm (     naming would normally use lower camel case.) Tj ET
-BT /F1 9.5 Tf 1 0 0 1 54 178.0 Tm (  - Run mvnw.cmd clean test before submission.) Tj ET
 BT /F1 8 Tf 1 0 0 1 54 30 Tm (Disease Statistics API | Project Documentation | Page 3) Tj ET
 endstream
 endobj
@@ -166,11 +157,11 @@ xref
 0000003787 00000 n 
 0000007736 00000 n 
 0000007883 00000 n 
-0000011395 00000 n 
-0000011542 00000 n 
-0000011612 00000 n 
+0000010540 00000 n 
+0000010687 00000 n 
+0000010757 00000 n 
 trailer
 << /Size 12 /Root 11 0 R >>
 startxref
-11663
+10808
 %%EOF

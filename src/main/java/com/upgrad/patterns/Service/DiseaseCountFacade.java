@@ -15,12 +15,10 @@ public class DiseaseCountFacade {
     }
 
     public Object getDiseaseShCount() {
-        // Get the count without exposing the strategy details to the controller.
         return indiaDiseaseStat.GetInstance(SourceType.DiseaseSh).GetActiveCount();
     }
 
     public Object getJohnHopkinCount() {
-        // Get the John Hopkins count in the same way.
         return indiaDiseaseStat.GetInstance(SourceType.JohnHopkins).GetActiveCount();
     }
 

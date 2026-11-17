@@ -10,7 +10,6 @@ public class JwtAuthProcessor extends AuthenticationProcessor {
         super(processor);
     }
 
-    // Check the JWT token or pass to the next processor.
     @Override
     public boolean isAuthorized(AuthenticationProvider provider) {
 

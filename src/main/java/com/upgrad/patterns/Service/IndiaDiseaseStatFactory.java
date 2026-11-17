@@ -19,13 +19,11 @@ public class IndiaDiseaseStatFactory {
     }
 
     public IndianDiseaseStat GetInstance(SourceType sourceType) {
-        // Choose the strategy based on the selected source.
         if (sourceType == SourceType.JohnHopkins) {
             return johnHopkinsStrategy;
         } else if (sourceType == SourceType.DiseaseSh) {
             return diseaseShStrategy;
         } else {
-            // Show an error when the source is not supported.
             String message = String.format("Invalid source type specified. Available source type (%s, %s)",
                     SourceType.DiseaseSh, SourceType.JohnHopkins);
             throw new IllegalArgumentException(message);

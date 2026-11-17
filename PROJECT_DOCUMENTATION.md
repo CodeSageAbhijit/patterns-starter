@@ -150,13 +150,3 @@ For an invalid `sourceType`, the infected-ratio endpoint returns HTTP 400 with t
 | Name | Contribution |
 |---|---|
 | Abhijeet Kad | Project implementation, testing, and documentation |
-
-## Code Quality Rules
-
-- Keep one responsibility per class.
-- Use constructor injection for Spring dependencies.
-- Remove instructional placeholder comments after completing a task.
-- Keep comments focused on design intent or non-obvious behavior.
-- Remove unused imports and dead variables.
-- Preserve the method names required by the assignment, even though standard Java naming would normally use lower camel case.
-- Run `mvnw.cmd clean test` before submission.

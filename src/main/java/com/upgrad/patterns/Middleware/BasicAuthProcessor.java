@@ -10,7 +10,6 @@ public class BasicAuthProcessor extends AuthenticationProcessor {
         super(processor);
     }
 
-    // Check basic login details or pass to the next processor.
     @Override
     public boolean isAuthorized(AuthenticationProvider provider) {
         if(provider instanceof BasicAuthProvider)

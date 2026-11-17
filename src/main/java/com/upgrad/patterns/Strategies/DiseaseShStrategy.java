@@ -31,7 +31,6 @@ public class DiseaseShStrategy implements IndianDiseaseStat {
     @Override
     public String GetActiveCount() {
         try {
-            // Read the DiseaseSh JSON file and get its case count.
             DiseaseShResponse response = getDiseaseShResponseResponses();
             Float cases = response.getCases();
             return String.valueOf(Math.round(cases));

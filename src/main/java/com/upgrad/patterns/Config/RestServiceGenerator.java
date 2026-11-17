@@ -16,7 +16,6 @@ public class RestServiceGenerator {
     }
 
     public static RestTemplate GetInstance() {
-        // Create the RestTemplate only the first time it is needed.
         if (restTemplate == null) {
             restTemplate = new RestTemplateBuilder()
                     .interceptors((request, body, execution) -> {
@@ -28,7 +27,6 @@ public class RestServiceGenerator {
                     })
                     .build();
         }
-        // Return the same RestTemplate for later calls.
         return restTemplate;
     }
 }
