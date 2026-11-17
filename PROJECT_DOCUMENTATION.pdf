@@ -1,0 +1,176 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Length 3279 >>
+stream
+0.10 0.25 0.42 rg
+BT /F2 16 Tf 1 0 0 1 54 738.0 Tm (Disease Statistics API) Tj ET
+0 0 0 rg
+BT /F1 9.5 Tf 1 0 0 1 54 711.0 Tm (A Spring Boot application that exposes disease statistics through a small REST API.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 697.0 Tm (   The project demonstrates Singleton, Adapter, Factory, Facade, and Chain of) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 683.0 Tm (   Responsibility patterns.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 663.0 Tm (Requirements) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 639.0 Tm (  - Java 8) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 625.0 Tm (  - Internet access for the first Maven dependency download) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 611.0 Tm (  - Maven is not required globally; use the included Maven Wrapper) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 597.0 Tm (  - Postman for endpoint verification) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 577.0 Tm (The Spring Boot version and Java version are defined in pom.xml.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 557.0 Tm (Run The Application) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 533.0 Tm (Open PowerShell in the project root:) Tj ET
+BT /F3 8.5 Tf 1 0 0 1 54 513.0 Tm (Set-Location "C:\\Users\\ADMIN\\Downloads\\patterns+starter\\patterns starter") Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 495.0 Tm (Verify Java and Maven Wrapper:) Tj ET
+BT /F3 8.5 Tf 1 0 0 1 54 475.0 Tm (java -version) Tj ET
+BT /F3 8.5 Tf 1 0 0 1 54 463.0 Tm (.\\mvnw.cmd -v) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 445.0 Tm (Download dependencies and compile:) Tj ET
+BT /F3 8.5 Tf 1 0 0 1 54 425.0 Tm (.\\mvnw.cmd clean compile) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 407.0 Tm (Run the tests:) Tj ET
+BT /F3 8.5 Tf 1 0 0 1 54 387.0 Tm (.\\mvnw.cmd test) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 369.0 Tm (Start Spring Boot:) Tj ET
+BT /F3 8.5 Tf 1 0 0 1 54 349.0 Tm (.\\mvnw.cmd spring-boot:run) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 331.0 Tm (The application runs on http://localhost:8080 unless another port is configured.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 311.0 Tm (To build and run a packaged JAR instead:) Tj ET
+BT /F3 8.5 Tf 1 0 0 1 54 291.0 Tm (.\\mvnw.cmd clean package) Tj ET
+BT /F3 8.5 Tf 1 0 0 1 54 279.0 Tm (java -jar target\\patterns-0.0.1-SNAPSHOT.jar) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 261.0 Tm (Data Sources) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 237.0 Tm (The strategies use the fixture files supplied in src/main/resources:) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 217.0 Tm (  - DiseaseSh.json contains the disease.io response for India.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 203.0 Tm (  - JohnHopkins.json contains John Hopkins statistics.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 183.0 Tm (The source URLs are retained in src/main/resources/application.yml as configuration) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 169.0 Tm (   for the project specification. The current strategy implementations deserialize the) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 155.0 Tm (   supplied fixture files so endpoint tests remain deterministic and do not depend on) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 141.0 Tm (   external service availability.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 121.0 Tm (Design Patterns) Tj ET
+BT /F2 11 Tf 1 0 0 1 54 97.0 Tm (1. Singleton: `RestServiceGenerator`) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 73.0 Tm (File: src/main/java/com/upgrad/patterns/Config/RestServiceGenerator.java) Tj ET
+BT /F1 8 Tf 1 0 0 1 54 30 Tm (Disease Statistics API | Project Documentation | Page 1) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 10 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 3897 >>
+stream
+BT /F1 9.5 Tf 1 0 0 1 54 738.0 Tm (GetInstance\(\) creates the configured RestTemplate only when the static instance is) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 724.0 Tm (   absent. Later calls return the same object. Both disease strategies obtain their) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 710.0 Tm (   RestTemplate from this generator.) Tj ET
+BT /F2 11 Tf 1 0 0 1 54 690.0 Tm (2. Adapter: `IndianDiseaseStat`) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 666.0 Tm (Files:) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 646.0 Tm (  - src/main/java/com/upgrad/patterns/Interfaces/IndianDiseaseStat.java) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 632.0 Tm (  - src/main/java/com/upgrad/patterns/Strategies/DiseaseShStrategy.java) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 618.0 Tm (  - src/main/java/com/upgrad/patterns/Strategies/JohnHopkinsStrategy.java) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 598.0 Tm (The interface gives both sources a common GetActiveCount\(\) contract even though their) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 584.0 Tm (   JSON structures differ.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 564.0 Tm (  - DiseaseShStrategy maps the disease.io response to a rounded count.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 550.0 Tm (  - JohnHopkinsStrategy filters India records, reads each confirmed count, and sums) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 536.0 Tm (     the results.) Tj ET
+BT /F2 11 Tf 1 0 0 1 54 516.0 Tm (3. Factory: `IndiaDiseaseStatFactory`) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 492.0 Tm (File: src/main/java/com/upgrad/patterns/Service/IndiaDiseaseStatFactory.java) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 472.0 Tm (GetInstance\(SourceType\) selects the appropriate IndianDiseaseStat implementation at) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 458.0 Tm (   runtime:) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 438.0 Tm (  - SourceType.DiseaseSh selects DiseaseShStrategy.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 424.0 Tm (  - SourceType.JohnHopkins selects JohnHopkinsStrategy.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 410.0 Tm (  - An unsupported value raises IllegalArgumentException.) Tj ET
+BT /F2 11 Tf 1 0 0 1 54 390.0 Tm (4. Facade: `DiseaseCountFacade`) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 366.0 Tm (File: src/main/java/com/upgrad/patterns/Service/DiseaseCountFacade.java) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 346.0 Tm (The facade hides factory and strategy selection from the controller. It exposes simple) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 332.0 Tm (   methods for the two count endpoints and for infected-ratio calculation.) Tj ET
+BT /F2 11 Tf 1 0 0 1 54 312.0 Tm (5. Chain of Responsibility: Authentication) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 288.0 Tm (Files:) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 268.0 Tm (  - src/main/java/com/upgrad/patterns/Authentication/Authenticator.java) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 254.0 Tm (  - src/main/java/com/upgrad/patterns/Middleware/AuthenticationProcessor.java) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 240.0 Tm (  - src/main/java/com/upgrad/patterns/Middleware/JwtAuthProcessor.java) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 226.0 Tm (  - src/main/java/com/upgrad/patterns/Middleware/BasicAuthProcessor.java) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 212.0 Tm (  - src/main/java/com/upgrad/patterns/Filters/AuthFilter.java) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 192.0 Tm (The chain is constructed as:) Tj ET
+BT /F3 8.5 Tf 1 0 0 1 54 172.0 Tm (JwtAuthProcessor to BasicAuthProcessor) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 154.0 Tm (JWT authentication is attempted first. A non-JWT provider is passed to Basic Auth. An) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 140.0 Tm (   invalid JWT is rejected rather than silently falling back to Basic Auth.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 126.0 Tm (The demo Basic Auth credentials are India / India; missing or incorrect credentials) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 112.0 Tm (   are rejected. This is assignment/demo authentication, not production credential) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 98.0 Tm (   management.) Tj ET
+BT /F1 8 Tf 1 0 0 1 54 30 Tm (Disease Statistics API | Project Documentation | Page 2) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 10 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 3460 >>
+stream
+BT /F2 13 Tf 1 0 0 1 54 738.0 Tm (API Verification With Postman) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 714.0 Tm (Start the application, import Design+Patterns+Project.postman_collection \(1\).json, and) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 700.0 Tm (   send the requests with the required authorization header.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 680.0 Tm (Request  |  Expected purpose) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 666.0 Tm (GET http://localhost:8080/v1/disease/disease-sh-io/count  |  Returns the DiseaseSh) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 652.0 Tm (   count) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 638.0 Tm (GET http://localhost:8080/v1/disease/john-hopkins/count  |  Returns the John Hopkins) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 624.0 Tm (   count) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 610.0 Tm (GET http://localhost:8080/v1/disease/infected-ratio?sourceType=DiseaseSh  |  Returns) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 596.0 Tm (   the DiseaseSh infected ratio) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 582.0 Tm (GET http://localhost:8080/v1/disease/infected-ratio?sourceType=JohnHopkins  |  Returns) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 568.0 Tm (   the John Hopkins infected ratio) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 548.0 Tm (For an invalid sourceType, the infected-ratio endpoint returns HTTP 400 with the) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 534.0 Tm (   available source types.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 514.0 Tm (Verification Checklist) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 490.0 Tm (  - [ ] java -version reports Java 8.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 476.0 Tm (  - [ ] mvnw.cmd clean compile finishes with BUILD SUCCESS.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 462.0 Tm (  - [ ] mvnw.cmd test passes the Spring context test.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 448.0 Tm (  - [ ] The application starts on port 8080.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 434.0 Tm (  - [ ] All Postman requests return responses.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 420.0 Tm (  - [ ] Requests without valid authentication are rejected.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 406.0 Tm (  - [ ] Packaged JAR can load the bundled JSON fixtures from the classpath.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 392.0 Tm (  - [ ] Both source strategies return data from their fixture files.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 378.0 Tm (  - [ ] Infected ratio works for both DiseaseSh and JohnHopkins.) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 358.0 Tm (Contributors) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 334.0 Tm (Name  |  Contribution) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 320.0 Tm (Abhijeet Kad  |  Project implementation, testing, and documentation) Tj ET
+BT /F2 13 Tf 1 0 0 1 54 300.0 Tm (Code Quality Rules) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 276.0 Tm (  - Keep one responsibility per class.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 262.0 Tm (  - Use constructor injection for Spring dependencies.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 248.0 Tm (  - Remove instructional placeholder comments after completing a task.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 234.0 Tm (  - Keep comments focused on design intent or non-obvious behavior.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 220.0 Tm (  - Remove unused imports and dead variables.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 206.0 Tm (  - Preserve the method names required by the assignment, even though standard Java) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 192.0 Tm (     naming would normally use lower camel case.) Tj ET
+BT /F1 9.5 Tf 1 0 0 1 54 178.0 Tm (  - Run mvnw.cmd clean test before submission.) Tj ET
+BT /F1 8 Tf 1 0 0 1 54 30 Tm (Disease Statistics API | Project Documentation | Page 3) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 10 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R] /Count 3 >>
+endobj
+11 0 obj
+<< /Type /Catalog /Pages 10 0 R >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000015 00000 n 
+0000000112 00000 n 
+0000000214 00000 n 
+0000000309 00000 n 
+0000003640 00000 n 
+0000003787 00000 n 
+0000007736 00000 n 
+0000007883 00000 n 
+0000011395 00000 n 
+0000011542 00000 n 
+0000011612 00000 n 
+trailer
+<< /Size 12 /Root 11 0 R >>
+startxref
+11663
+%%EOF

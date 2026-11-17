@@ -1,0 +1,26 @@
+package com.upgrad.patterns.Middleware;
+
+import com.upgrad.patterns.Authentication.AuthenticationProvider;
+import com.upgrad.patterns.Authentication.BasicAuthProvider;
+
+public class BasicAuthProcessor extends AuthenticationProcessor {
+
+    public BasicAuthProcessor(AuthenticationProcessor processor)
+    {
+        super(processor);
+    }
+
+    // Check basic login details or pass to the next processor.
+    @Override
+    public boolean isAuthorized(AuthenticationProvider provider) {
+        if(provider instanceof BasicAuthProvider)
+        {
+            return provider.Authenticate();
+        }
+        else if(nextProcessor != null)
+        {
+            return nextProcessor.isAuthorized(provider);
+        }
+        return false;
+    }
+}

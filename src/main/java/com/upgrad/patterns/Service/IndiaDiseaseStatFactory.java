@@ -1,0 +1,36 @@
+package com.upgrad.patterns.Service;
+
+import com.upgrad.patterns.Interfaces.IndianDiseaseStat;
+import com.upgrad.patterns.Constants.SourceType;
+import com.upgrad.patterns.Strategies.DiseaseShStrategy;
+import com.upgrad.patterns.Strategies.JohnHopkinsStrategy;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class IndiaDiseaseStatFactory {
+    private IndianDiseaseStat diseaseShStrategy;
+    private IndianDiseaseStat johnHopkinsStrategy;
+
+    @Autowired
+    public IndiaDiseaseStatFactory(DiseaseShStrategy diseaseShStrategy, JohnHopkinsStrategy johnHopkinsStrategy) {
+        this.diseaseShStrategy = diseaseShStrategy;
+        this.johnHopkinsStrategy = johnHopkinsStrategy;
+    }
+
+    public IndianDiseaseStat GetInstance(SourceType sourceType) {
+        // Choose the strategy based on the selected source.
+        if (sourceType == SourceType.JohnHopkins) {
+            return johnHopkinsStrategy;
+        } else if (sourceType == SourceType.DiseaseSh) {
+            return diseaseShStrategy;
+        } else {
+            // Show an error when the source is not supported.
+            String message = String.format("Invalid source type specified. Available source type (%s, %s)",
+                    SourceType.DiseaseSh, SourceType.JohnHopkins);
+            throw new IllegalArgumentException(message);
+        }
+
+    }
+
+}
